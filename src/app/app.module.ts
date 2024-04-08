@@ -15,6 +15,9 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { environment } from '../environments/environment.development';
 import { AngularFireModule } from '@angular/fire/compat';
+import { CadastroMoradorComponent } from './pages/cadastro-morador/cadastro-morador.component';
+import { CadastroPorteirosComponent } from './pages/cadastro-porteiros/cadastro-porteiros.component';
+import { CadastroAvisosComponent } from './pages/cadastro-avisos/cadastro-avisos.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { AngularFireModule } from '@angular/fire/compat';
     ButtonComponent,
     LoginComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    CadastroMoradorComponent,
+    CadastroPorteirosComponent,
+    CadastroAvisosComponent
   ],
   imports: [
     BrowserModule,

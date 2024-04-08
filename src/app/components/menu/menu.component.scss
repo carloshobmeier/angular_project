@@ -35,6 +35,16 @@
         }
     }
 
+    li.logotipo:first-child {
+        &:hover{
+            background: var(--primary-color); // original background color
+            color: #fafafa; // original text color
+            cursor: default; // original cursor type
+        }
+    }
+
+
+
     .logout {
         position: absolute;
         bottom: 0;

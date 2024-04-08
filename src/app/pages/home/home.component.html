@@ -7,14 +7,11 @@
             <!-- PRIMEIRO CARD -->
             <div class="card-info">
                 <div class="row">
-                    <div class="col-12 col-md-8">
-                        <h1 class="titulo">TÍTULO</h1>
-                        <h3 class="subtitulo">texto genérico para  <span>escrever</span> com <span> impacto</span> <br>
-                        Confira um resumo das informações em nosso <span>Dashboard</span></h3>
-
-                        <app-button textButton="Iniciar" routerLink="/crud"></app-button>
+                    <div class="col-12 col-md-9">
+                        <h1 class="titulo">CondoHub</h1>
+                        <h3 class="subtitulo">Bem-vindo ao futuro da <span>gestão de condomínios</span>! Nosso aplicativo foi desenvolvido para oferecer uma solução abrangente e intuitiva para síndicos, moradores e equipes administrativas.</h3>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-3">
                         <img src="../../../assets/imagem.jpg" width="100%">
                     </div>
                 </div>
@@ -29,11 +26,11 @@
                             <div class="col-8">
                                 <p class="texto-card">Total de usuários cadastrados no sistema</p>
                                 <p class="numero-card">42</p>
-                                <p class="destaque-card">+ 5 adicionados no último mês</p>
+                                <p class="destaque-card">+ 5 adicionados na última semana</p>
                             </div>
                             <div class="col-4">
                                 <mat-progress-spinner class="example-margin mx-auto" mode="determinate"
-                                value="42"></mat-progress-spinner>
+                                value="28"></mat-progress-spinner>
                                 <p class="info-spinner">42/150</p>
                             </div>
                         </div>
@@ -45,13 +42,13 @@
                     <div class="card-info">
                         <div class="row">
                             <div class="col-8">
-                                <p class="texto-card">Total de detalhes cadastrados</p>
-                                <p class="numero-card">4</p>
-                                <p class="destaque-card">+ 3 adicionados no último mês</p>
+                                <p class="texto-card">Total de avisos cadastrados</p>
+                                <p class="numero-card">5</p>
+                                <p class="destaque-card">+ 3 adicionados na última semana</p>
                             </div>
                             <div class="col-4">
                                 <mat-progress-spinner class="example-margin mx-auto color-spinner" mode="determinate"
-                                value="80"></mat-progress-spinner>
+                                value="60"></mat-progress-spinner>
                                 <p class="info-spinner">3/5</p>
                             </div>
                         </div>
@@ -61,15 +58,15 @@
                 <!-- CARD USUÁRIO CADASTRADO -->
                 <div class="col-12 mt-4">
                     <div class="card-info">
-                        <h3 class="titulo">último usuário cadastrado</h3>
+                        <h3 class="titulo">Último aviso cadastrado</h3>
 
                         <hr class="hr">
 
                         <div class="row">
-                            <div class="col-1"> <mat-icon>account_circle</mat-icon> </div>
+                            <div class="col-1"> <mat-icon>engineering</mat-icon> </div>
                             <div class="col-1"> <p class="texto-p">1</p> </div>
-                            <div class="col"> <p class="texto-p">Carlos Hobmeier</p> </div>
-                            <div class="col"> <p class="texto-p">Desenvolvedor web</p> </div>
+                            <div class="col"> <p class="texto-p">Manutenção nos elevadores</p> </div>
+                            <div class="col"> <p class="texto-p">Sexta-feira, 9h30m será executada...</p> </div>
                         </div>
                     </div>
                 </div>
@@ -82,7 +79,7 @@
             <div class="card-info">
                 <div class="container-perfil">
                     <img src="../../../assets/profile.png" class="img-perfil">
-                    <h4>Seja bem vindo</h4>
+                    <h4>Seja bem-vindo, Síndico</h4>
                     <h5>{{ userName }}</h5>
                     <li> <mat-icon>location_on</mat-icon> PR - Curitiba </li>
                 </div>
@@ -91,10 +88,9 @@
                 <p class="texto-p">"escrever aqui um textinho depois... ver melhor"</p>
                 <hr class="hr">
 
-                <li> <mat-icon>person</mat-icon>Gerencie usuários </li>
-                <li> <mat-icon>loyalty</mat-icon>Adicione detalhes </li>
-                <li> <mat-icon>format_list_bulleted</mat-icon>Consulte cadastros </li>
-                <li> <mat-icon>delete</mat-icon>Exclua usuários </li>
+                <li> <mat-icon>manage_accounts</mat-icon>Gerenciar Moradores </li>
+                <li> <mat-icon>manage_accounts</mat-icon>Gerenciar Porteiros</li>
+                <li> <mat-icon>manage_search</mat-icon>Gerenciar Avisos</li>
             </div>
         </div>
     </div>

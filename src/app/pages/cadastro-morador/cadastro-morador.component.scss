@@ -1,0 +1,42 @@
+
+
+.btn-primary {
+    width: auto;
+    outline: none;
+    border: 0;
+    background: #3379a8;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 1px #0a0a0a20;
+    transition: 0.3s Linear all;
+    margin: 15px;
+    float: center;
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 5px 3px #0a0a0a20;
+    }
+    &:disabled{cursor: default; opacity: 0.7;}
+}
+
+.form-group {
+    margin: 15px;
+}
+
+.cadastro{
+    background: #fafafa;
+    padding: 14px 18px 0px 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px #0a0a0a20;
+    display: box;
+}
+
+.titulo{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 !important;
+    color: var(--primary-color);
+}
