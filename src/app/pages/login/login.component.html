@@ -2,10 +2,11 @@
 
 <div class="area-form">
     <form>
-        <h1 class="titulo">TITÚLO</h1>
-        <h2 class="subtitulo">Frase substítulo</h2>
+        <h1 class="titulo">Login</h1>
+        <h2 class="subtitulo">Faça seu login</h2>
 
-        <input [(ngModel)]="userName" [ngModelOptions]="{standalone: true}" class="input-form" type="text" placeholder="Digite seu nome">
+        <input [(ngModel)]="userName" [ngModelOptions]="{standalone: true}" class="input-form" type="text" placeholder="Digite seu usuário">
+        <input [(ngModel)]="userName" [ngModelOptions]="{standalone: true}" class="input-form" type="password" placeholder="Digite sua senha">
 
         <app-button textButton="Acessar" size="100" (click)="login()"></app-button>
     </form>
